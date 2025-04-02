@@ -188,32 +188,32 @@ document.addEventListener("DOMContentLoaded", () => {
         // Generate placeholder images for each project
         if (projectName === 'CryptoSphere') {
             imageSources = [
-                'Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 12.37.32.png?height=600&width=300', 
-                    'Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 12.37.49.png?height=600&width=300',
-                    'Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 12.27.01.png?height=600&width=300',
-                    'Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 12.27.04.png?height=600&width=300',
-                    'Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 15.10.57.png?height=600&width=300',
-                    'Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 15.11.19.png?height=600&width=300',
-                    'Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 15.11.37.png?height=600&width=300',
-                    'Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 15.11.28.png?height=600&width=300',
+                './Resources/Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 12.37.32.png?height=600&width=300', 
+                    './Resources/Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 12.37.49.png?height=600&width=300',
+                    './Resources/Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 12.27.01.png?height=600&width=300',
+                    './Resources/Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 12.27.04.png?height=600&width=300',
+                    './Resources/Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 15.10.57.png?height=600&width=300',
+                    './Resources/Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 15.11.19.png?height=600&width=300',
+                    './Resources/Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 15.11.37.png?height=600&width=300',
+                    './Resources/Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 15.11.28.png?height=600&width=300',
                     // ,'Simulator Screenshot - iPhone 16 Plus - 2025-03-18 at 15.10.45.png?height=600&width=300'
             ];
         } else if (projectName === 'CalcZ') {
             imageSources = [
-                'Simulator Screenshot - iPhone 16 Pro - 2025-03-18 at 15.17.59.png?height=600&width=300',
-                    'Simulator Screenshot - iPhone 16 Pro - 2025-03-18 at 15.18.25.png?height=600&width=300',
-                    'Simulator Screenshot - iPhone 16 Pro - 2025-03-18 at 15.18.39.png?height=600&width=300'
+                './Resources/Simulator Screenshot - iPhone 16 Pro - 2025-03-18 at 15.17.59.png?height=600&width=300',
+                    './Resources/Simulator Screenshot - iPhone 16 Pro - 2025-03-18 at 15.18.25.png?height=600&width=300',
+                    './Resources/Simulator Screenshot - iPhone 16 Pro - 2025-03-18 at 15.18.39.png?height=600&width=300'
             ];
         } else if (projectName === 'Other Projects') {
             imageSources = [
                 // 'original-f33f29a8c8263925cfec24773a674367.webp',
-                'zoteScreenshot1.png?height=600&width=800?height=600&width=800',
+                './Resources/zoteScreenshot1.png?height=600&width=800?height=600&width=800',
                 // 'zoteScreenshot2.png', 
-                'zoteScreenshot3.png?height=600&width=800?height=600&width=800', 
-                'zoteScreenshot7.png?height=600&width=800', 
+                './Resources/zoteScreenshot3.png?height=600&width=800?height=600&width=800', 
+                './Resources/zoteScreenshot7.png?height=600&width=800', 
                 // 'zoteScreenshot4.png', 
-                'zoteScreenshot5.png?height=600&width=800', 
-                'zoteScreenshot6.png?height=600&width=800',
+                './Resources/zoteScreenshot5.png?height=600&width=800', 
+                './Resources/zoteScreenshot6.png?height=600&width=800',
                 // 'zoteScreenrecording.MOV',
             ];
         }
